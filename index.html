@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>RocketNews - newsletter</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./assets/logo.svg" alt="logo RocketNews" id="logo">
+    </header>
+
+    <main>
+        <h2 id="title">atualize ideias e informações em 5 minutos.</h2>
+        <h3 id="text1">tudo que você precisa saber para começar seu dia bem e informado</h3>
+        <p id="text2">noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. <br> perfeito para se preparar para codar ☕</p>
+
+        <form action="">
+            <label for="email">Insira seu e-mail:</label><br>
+            <div id="email-box">
+                <input type="email" name="email" id="email" placeholder="oi@rocketseat.com">
+                <button type="submit" onclick="registred()">
+                    <img src="./assets/send.svg" alt="botão enviar">
+                </button>
+            </div>
+        </form>
+        
+        <a href="https://github.com/GabrielWendich" target="_blank" rel="noopener noreferrer" id="read-first">deixe-me ler primeiro <img src="./assets/arrow-right.svg" alt="leia primeiro"></a>
+    </main>
+
+    <div id="img">
+        <img src="./assets/read_news.jpg" alt="imagem de fundo com homem branco trabalhando no computador">
+    </div>
+
+    <script>
+        function registred() {
+            alert('Seu e-mail foi registrado com sucesso')
+        }
+    </script>
+</body>
+</html>

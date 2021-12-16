@@ -1,0 +1,108 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--body-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 24.3rem;
+    margin: 50px 0 5.75rem 30px;
+    flex-direction: column;
+}
+
+main {
+    margin-left: 36px;
+    position: relative;
+    z-index: 10;
+}
+
+#title {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: .55rem;
+}
+
+#text1 {
+    color: var(--text-color);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: .87rem;
+    margin-bottom: .55rem;
+}
+
+#text2 {
+    color: var(--text-color);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: .87rem;
+    margin-bottom: 3.12rem;
+}
+
+form {
+    margin-bottom: 7.18rem;
+}
+
+form label {
+    color: var(--form-color);
+    font-family: 'Spartan', sans-serif;;
+    font-weight: 700;
+    font-size: .87rem;   
+}
+
+#email-box {
+    display: flex;
+    margin: 1rem 0 3.12rem 0;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 15px 15px 15px var(--body-bg-color);
+}
+
+form input {
+    box-sizing: border-box;
+    width: 46.87rem;
+    height: 3rem;
+    border-left: var(--title-color) solid;
+    border-width: 0 0 0 .3rem;
+}
+
+form button {
+    box-sizing: border-box;
+    background-color: var(--bg-button-color);
+    width: 3rem;
+    height: 3rem;
+    border-style: none;
+    padding: .75rem;
+}
+
+#read-first {
+    width: 14rem;
+    display: flex;
+    text-decoration: none;
+    color: var(--bg-button-color);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    gap: .3rem;
+}
+
+#img img {
+    max-width: 50vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    background-position: center;
+}
